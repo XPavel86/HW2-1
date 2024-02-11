@@ -17,40 +17,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwB-vu-WTa" userLabel="View1">
+
                                 <rect key="frame" x="20" y="324.5" width="280" height="243.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-T0-Z9i" userLabel="View2">
                                 <rect key="frame" x="20" y="38" width="280" height="243.5"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
+
+                                
+
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bwB-vu-WTa" secondAttribute="trailing" constant="20" id="IBJ-FU-5s4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FBC-T0-Z9i" secondAttribute="trailing" constant="20" id="M54-Y9-fJs"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VRI-Z8-X1a"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="YHO-u1-vkh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bwB-vu-WTa" secondAttribute="bottom" id="kMr-qg-cgp"/>
-                            <constraint firstItem="bwB-vu-WTa" firstAttribute="top" secondItem="FBC-T0-Z9i" secondAttribute="bottom" constant="43" id="u5t-9C-NGp"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="width" secondItem="bwB-vu-WTa" secondAttribute="width" id="uEi-pN-hP2"/>
-                            <constraint firstItem="bwB-vu-WTa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wrJ-tz-JXP"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="height" secondItem="bwB-vu-WTa" secondAttribute="height" id="xC2-GN-n6v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rkY-Tl-XzS" secondAttribute="trailing" constant="16" id="K9U-Av-VPn"/>
+                            <constraint firstItem="bwB-vu-WTa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="QAu-iw-n4q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bwB-vu-WTa" secondAttribute="bottom" constant="20" id="R8O-LP-dKj"/>
+                            <constraint firstItem="rkY-Tl-XzS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XNf-Np-xHS"/>
+                            <constraint firstItem="rkY-Tl-XzS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="aL9-vR-aWG"/>
+                            <constraint firstItem="rkY-Tl-XzS" firstAttribute="width" secondItem="bwB-vu-WTa" secondAttribute="width" id="l0L-6j-CgN"/>
+                            <constraint firstItem="rkY-Tl-XzS" firstAttribute="height" secondItem="bwB-vu-WTa" secondAttribute="height" id="pmz-ko-qbM"/>
+                            <constraint firstItem="bwB-vu-WTa" firstAttribute="top" secondItem="rkY-Tl-XzS" secondAttribute="bottom" constant="56" id="sQN-Uo-lLl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bwB-vu-WTa" secondAttribute="trailing" constant="16" id="zlz-RL-iW4"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-136.74418604651163" y="-30.901287553648071"/>
+            <point key="canvasLocation" x="-136.875" y="-31.690140845070424"/>
         </scene>
     </scenes>
     <resources>
         <systemColor name="systemGreenColor">
             <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
