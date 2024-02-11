@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwB-vu-WTa" userLabel="View1">
-                                <rect key="frame" x="16" y="312" width="288" height="236"/>
+
+                                <rect key="frame" x="20" y="324.5" width="280" height="243.5"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="288" id="4aV-ZI-E0J"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="236" id="502-HN-6CE"/>
-                                </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rkY-Tl-XzS" userLabel="View2">
-                                <rect key="frame" x="16" y="20" width="288" height="236"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-T0-Z9i" userLabel="View2">
+                                <rect key="frame" x="20" y="38" width="280" height="243.5"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+
+                                
+
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
