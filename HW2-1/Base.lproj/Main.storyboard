@@ -16,31 +16,30 @@
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwB-vu-WTa">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwB-vu-WTa" userLabel="View1">
                                 <rect key="frame" x="20" y="509" width="390" height="389"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="390" id="eoc-Lf-sbs"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="389" id="jME-WL-Lsx"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="390" id="eHz-XH-qJe"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FBC-T0-Z9i">
-                                <rect key="frame" x="20" y="77" width="390" height="389"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8YJ-h4-fnp" userLabel="View2">
+                                <rect key="frame" x="20" y="59" width="390" height="389"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bwB-vu-WTa" secondAttribute="trailing" constant="20" id="IBJ-FU-5s4"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FBC-T0-Z9i" secondAttribute="trailing" constant="20" id="M54-Y9-fJs"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="VRI-Z8-X1a"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="YHO-u1-vkh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bwB-vu-WTa" secondAttribute="bottom" id="kMr-qg-cgp"/>
-                            <constraint firstItem="bwB-vu-WTa" firstAttribute="top" secondItem="FBC-T0-Z9i" secondAttribute="bottom" constant="43" id="u5t-9C-NGp"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="width" secondItem="bwB-vu-WTa" secondAttribute="width" id="uEi-pN-hP2"/>
-                            <constraint firstItem="bwB-vu-WTa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="wrJ-tz-JXP"/>
-                            <constraint firstItem="FBC-T0-Z9i" firstAttribute="height" secondItem="bwB-vu-WTa" secondAttribute="height" id="xC2-GN-n6v"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8YJ-h4-fnp" secondAttribute="trailing" constant="20" id="H6T-n2-0r2"/>
+                            <constraint firstItem="8YJ-h4-fnp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JQV-V0-wnw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bwB-vu-WTa" secondAttribute="bottom" id="MLa-LB-XSN"/>
+                            <constraint firstItem="8YJ-h4-fnp" firstAttribute="width" secondItem="bwB-vu-WTa" secondAttribute="width" id="OhJ-E7-uiP"/>
+                            <constraint firstItem="bwB-vu-WTa" firstAttribute="top" secondItem="8YJ-h4-fnp" secondAttribute="bottom" constant="61" id="OtB-cs-mCS"/>
+                            <constraint firstItem="8YJ-h4-fnp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QMH-Zy-nIZ"/>
+                            <constraint firstItem="bwB-vu-WTa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="WT5-Cj-rfx"/>
+                            <constraint firstItem="bwB-vu-WTa" firstAttribute="height" secondItem="8YJ-h4-fnp" secondAttribute="height" id="vGb-Zw-LfK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bwB-vu-WTa" secondAttribute="trailing" constant="20" id="wmJ-On-Uw7"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -51,10 +50,10 @@
     </scenes>
     <resources>
         <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
